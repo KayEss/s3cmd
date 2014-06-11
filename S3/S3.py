@@ -677,10 +677,10 @@ class S3(object):
             elif (o == 0x20 or  # Space and below
                 o == 0x22 or    # "
                 o == 0x23 or    # #
+                o == 0x24 or    # $
                 o == 0x25 or    # % (escape character)
                 o == 0x26 or    # &
                 o == 0x2B or    # + (or it would become <space>)
-                o == 0x36 or    # $
                 o == 0x3C or    # <
                 o == 0x3E or    # >
                 o == 0x3F or    # ?
