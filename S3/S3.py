@@ -798,7 +798,9 @@ class S3(object):
                 o == 0x24 or    # $
                 o == 0x25 or    # % (escape character)
                 o == 0x26 or    # &
+                o == 0x27 or    # ' (apostrophe)
                 o == 0x2B or    # + (or it would become <space>)
+                o == 0x2C or    # , (comma)
                 o == 0x3C or    # <
                 o == 0x3E or    # >
                 o == 0x3F or    # ?
