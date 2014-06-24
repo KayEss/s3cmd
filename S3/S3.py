@@ -807,6 +807,7 @@ class S3(object):
                 o == 0x3C or    # <
                 o == 0x3E or    # >
                 o == 0x3F or    # ?
+                o == 0x40 or    # @ (At symbol)
                 o == 0x60 or    # `
                 o == 0x5B or    # [
                 o == 0x5D or    # ]
