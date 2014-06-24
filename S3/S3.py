@@ -803,6 +803,7 @@ class S3(object):
                 o == 0x29 or    # ) (close parenthesis)
                 o == 0x2B or    # + (or it would become <space>)
                 o == 0x2C or    # , (comma)
+                o == 0x3A or    # : (colon)
                 o == 0x3C or    # <
                 o == 0x3E or    # >
                 o == 0x3F or    # ?
